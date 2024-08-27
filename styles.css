@@ -1,0 +1,56 @@
+/* style.css */
+body {
+    text-align: center;
+    margin: 160px;
+}
+
+.title {
+    font-size: 6rem;
+    color: rgba(41, 44, 38, 0.72);
+    text-decoration: underline dashed 3px rgb(23, 50, 92);
+}
+
+.root {
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    max-width: 60rem;
+    margin: auto;
+    margin-top: 10%;
+    box-shadow: 0 4px 10px rgb(46, 63, 57);
+    background-color: rgb(125, 232, 239);
+    border-radius:  100px;
+    padding: 5%;
+}
+
+section {
+    font-size: 3rem;
+    padding: 2%;
+    margin: auto;
+    text-align: left;
+}
+
+span>label {
+    width: 80%;
+}
+
+.option {
+    display: flex;
+    flex-direction: column;
+}
+
+.option>span {
+    display: flex;
+    padding:3%;
+}
+
+select {
+    /* width: ; */
+    font-size: 2rem;
+    outline: none;
+}
+
+input {
+    width: 80%;
+    font-size: 2rem;
+}
